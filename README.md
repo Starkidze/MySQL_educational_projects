@@ -109,11 +109,10 @@
 <a href="http://search.oracle.com/search/search?group=MySQL&amp;q=GROUP%20BY"><span style="color: #990099; font-weight: bold;">GROUP BY</span></a> categories.name<span style="color: #000033;">;</span></pre>
 
   ### Получить все заказы, сделанные пользователями с именем, начинающимся на определенную букву
-<pre class="mysql" style="font-family:monospace;font-size:10px;">  <a href="http://search.oracle.com/search/search?group=MySQL&amp;q=SELECT"><span style="color: #990099; font-weight: bold;">SELECT</span></a> orders.<span style="color: #CC0099;">*</span>
+<pre class="mysql" style="font-family:monospace;font-size:10px;"><a href="http://search.oracle.com/search/search?group=MySQL&amp;q=SELECT"><span style="color: #990099; font-weight: bold;">SELECT</span></a> orders.<span style="color: #CC0099;">*</span>
 <a href="http://search.oracle.com/search/search?group=MySQL&amp;q=FROM"><span style="color: #990099; font-weight: bold;">FROM</span></a> orders
 <a href="http://search.oracle.com/search/search?group=MySQL&amp;q=JOIN"><span style="color: #990099; font-weight: bold;">JOIN</span></a> users <a href="http://search.oracle.com/search/search?group=MySQL&amp;q=ON"><span style="color: #990099; font-weight: bold;">ON</span></a> orders.user_id <span style="color: #CC0099;">=</span> users.id
-<a href="http://search.oracle.com/search/search?group=MySQL&amp;q=WHERE"><span style="color: #990099; font-weight: bold;">WHERE</span></a> users.name <a href="http://dev.mysql.com/doc/refman/%35%2E%31/en/non-typed-operators.html"><span style="color: #CC0099; font-weight: bold;">LIKE</span></a> <span style="color: #008000;">'А<span style="color: #008080; font-weight: bold;">%</span>'</span><span style="color: #000033;">;</span>
-&nbsp;</pre>
+<a href="http://search.oracle.com/search/search?group=MySQL&amp;q=WHERE"><span style="color: #990099; font-weight: bold;">WHERE</span></a> users.name <a href="http://dev.mysql.com/doc/refman/%35%2E%31/en/non-typed-operators.html"><span style="color: #CC0099; font-weight: bold;">LIKE</span></a> <span style="color: #008000;">'А<span style="color: #008080; font-weight: bold;">%</span>'</span><span style="color: #000033;">;</span></pre>
 
 
   ### Получить все продукты, отсортированные по категориям и цене
